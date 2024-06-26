@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy | audi.com</title>
+    <link rel="stylesheet" href="../CSS/Audi.css">
+    <link rel="stylesheet" href="../CSS/Innovation.css">
+    <link rel="stylesheet" href="../CSS/Strategy.css">
+    <link rel="preconnect" href="https://fontawesome.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Audi.html"><i class="fa-solid fa-house"></i></a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Company.html">Company</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Strategy.html">Strategy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Innovation.html">Innovation</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Sustainability.html">Sustainability</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Careers.html">Careers</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Audi in sport.html">Audi in sport</a>
+                </li>
+            </ul>
+           
+        </nav>
+        <div class="header_strategy"></div>  
+    </header>
+    <main>
+        <div class="strategy hidden">
+            <h1>Strategy</h1>
+            <p>Sustainable success is based on long-term vision and innovative strategy. A clear commitment to electric mobility is essential to Audi's strategy. Within the next five years, the company will expand its EV portfolio: By 2027, the four rings plan to offer a fully electric vehicle in all core segments. Audi is accelerating its transformation into the leading provider of sustainable e-mobility.</p>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const companySection = document.querySelector('.strategy');
+
+                function checkVisibility() {
+                    const rect = companySection.getBoundingClientRect();
+                    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+                    const windowWidth = (window.innerWidth || document.documentElement.clientWidth);
+
+                    // Kiểm tra xem phần tử có nằm trong vùng nhìn thấy hay không
+                    if (
+                        rect.top <= windowHeight && rect.bottom >= 0 &&
+                        rect.left <= windowWidth && rect.right >= 0
+                    ) {
+                        companySection.classList.add('visible');
+                        companySection.classList.remove('hidden');
+                    } else {
+                        companySection.classList.add('hidden');
+                        companySection.classList.remove('visible');
+                    }
+                }
+
+                document.addEventListener('scroll', checkVisibility);
+                window.addEventListener('resize', checkVisibility);
+                checkVisibility(); // Initial check
+            });
+        </script>
+        <div class="first-stragety">
+            <div class="strategy-box">
+                <div class="strategy-image">
+                    <a href="">
+                        <img src="../Images/strategy2.webp"  alt="">
+                    </a>
+                </div>
+                <div class="strategy-text">
+                    <p>Management</p>
+                    <h2>Management</h2>
+                    <p>The corporate management of AUDI AG draws on its expertise and leadership to promote the interests of the Audi customers and more than 90,000 employees around the globe.</p>
+                </div>
+            </div>
+            <div class="strategy-box">
+                <div class="strategy-image">
+                    <a href="">
+                        <img src="../Images/strategy3.webp"  alt="">
+                    </a>
+                </div>
+                <div class="strategy-text">
+                    <p>Business Areas</p>
+                    <h2>Business Areas</h2>
+                    <p>Vorsprung durch Technik: Each brand stands for outstanding performance, pioneering technologies, fascinating design and tremendous emotion. Audi and the three traditional Italian brands Lamborghini, Ducati und Italdesign together make up the Audi Group.</p>
+                </div>
+            </div>
+            <div class="strategy-box">
+                <div class="strategy-image">
+                    <a href="">
+                        <img src="../Images/strategy4.webp"  alt="">
+                    </a>
+                </div>
+                <div class="strategy-text">
+                    <p>Locations of the Audi Group</p>
+                    <h2>Locations of the Audi Group</h2>
+                    <p>At its production sites worldwide, Audi stands for "Vorsprung durch Technik”. Through innovative logistics processes, modern manufacturing technologies and efficient production systems, highly qualified employees set uniform standards as part of the Audi production system.</p>
+                </div>
+            </div>
+        </div>
+        <div class="strategy-pace">
+            <div class="pace-text">
+                <p>Strategy __ 03/19/2024</p>
+                <h2>Audi ups the pace</h2>
+                <p>A new activation and implementation program is now allowing Audi to tackle important issues in order to achieve long-term success. The Audi Agenda centers on products, technologies, the brand and the regions of China and North America. The clear goal of the Four Rings is to breathe new life into “Vorsprung durch Technik,” bring the company closer to its customers and strengthen quality. This applies to all products and is also a mindset for the entire company. An overview.</p>
+                <a href="" class="main-button">Read more</a>
+            </div>
+            <div class="pace-image">
+                <img src="../Images/strategy5.webp" width="708" height="398" alt="">
+            </div>
+        </div>
+        <div class="strategy-pace">
+            <div class="pace-image" style="margin-right: 2rem;">
+                <img src="../Images/strategy6.webp" width="708" height="398"  alt="">
+            </div>
+            <div class="pace-text">
+                <p>Compliance</p>
+                <h2>Compliance & Integrity</h2>
+                <p>The elements of compliance and integrity are firmly anchored in our strategy and culture. They are the basis of our actions at Audi. Our aim is to make decisions in accordance with the relevant laws, internal regulations, and values.</p>
+                <a href="" class="main-button">Read more</a>
+            </div>
+        </div>
+        <div class="strategy-pace">
+            <div class="pace-text">
+                <p>Responsibility in the Supply Chain</p>
+                <h2>Responsibility in the supply chain</h2>
+                <p>In addition to demanding high standards as regards quality, technological expertise as well as performance and competitiveness, the Audi Group expects its suppliers to strictly comply with sustainability requirements.</p>
+                <a href="" class="main-button">Read more</a>
+            </div>
+            <div class="pace-image">
+                <img src="../Images/strategy7.webp" width="708" height="398" alt="">
+            </div>
+        </div>
+        <h1 class="strategy-title">You might also be interested in</h1>
+        <div class="first-stragety">
+            <div class="strategy-box">
+                <div class="strategy-image">
+                    <a href="">
+                        <img src="../Images/strategy8.webp"  alt="">
+                    </a>
+                </div>
+                <div class="strategy-text">
+                    <p>Diversity & Inclusion __ 05/27/2024</p>
+                    <h2>Diversity & Inclusion: milestones of a journey</h2>
+                    <p>AUDI AG regards Diversity & Inclusion as a journey that the company defines together with its employees. As part of this, the company reached a few new milestones.</p>
+                </div>
+            </div>
+        
+        
+        
+            <div class="strategy-box">
+                <div class="strategy-image">
+                    <a href="">
+                        <img src="../Images/strategy9.webp"  alt="">
+                    </a>
+                </div>
+                <div class="strategy-text">
+                    <p>Stakeholder Management</p>
+                    <h2>Constructive dialogue</h2>
+                    <p>Audi in dialogue: the company uses regular dialogue events and conferences to actively involve its stakeholders. This approach enables Audi to promote an intensive, ongoing exchange about strategically relevant topics.</p>
+                </div>
+            </div>
+        
+        
+            <div class="strategy-box">
+                <div class="strategy-image">
+                    <a href="">
+                        <img src="../Images/strategy10.webp"  alt="">
+                    </a>
+                </div>
+                <div class="strategy-text">
+                    <p>Decarbonization</p>
+                    <h2>Reducing CO₂ emissions at Audi dealerships</h2>
+                    <p>CO₂ emissions are generated along the entire automotive value chain. Audi strives to reduce CO₂ emissions in all phases of the value chain in order to achieve effective decarbonization, and is also paying close attention to its dealer network in this respect.</p>
+                </div>
+            </div>
+        </div>  
+    </main>
+    <footer>
+        <div class="icon">
+            <a href=""><i class="fa-brands fa-facebook" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-instagram" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-youtube" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin" style="margin-right: 3rem;"></i></a>
+        </div>
+        <div class="footer-menu">
+            <div class="column">
+                <h3>Topics:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Company</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Innovation</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Sustainability</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Careers</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Audi in sport</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>AUDI AG:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Audi Report 2023</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Documents & Policies</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Finalcial Calender</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Management</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Locations</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Services:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">myAudi</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Press</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Job portal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="last-menu">
+            <h3>© AUDI AG. All rights reserved</h3>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Legal notice</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Legal</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Whistleblower System</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Privacy Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Cookie Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Cookie Consent Options</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

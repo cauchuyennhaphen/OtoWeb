@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovation | audi.com</title>
+    <link rel="stylesheet" href="../CSS/Audi.css">
+    <link rel="stylesheet" href="../CSS/Innovation.css">
+    <link rel="preconnect" href="https://fontawesome.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Audi.html"><i class="fa-solid fa-house"></i></a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Company.html">Company</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Strategy.html">Strategy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Innovation.html">Innovation</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Sustainability.html">Sustainability</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Careers.html">Careers</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Audi in sport.html">Audi in sport</a>
+                </li>
+            </ul>
+            
+        </nav>
+        <div class="header_innovation">
+            
+
+        </div>  
+    </header>
+    <main>
+        <div class="innovation hidden">
+            <h1>Innovation</h1>
+            <p>Audi is changing. Continuously. Discover here how our innovations ensure "Vorsprung durch Technik," how modern technology and progressive thinking characterize Audi, which processes are behind them and how our engineers work to further develop the existing.</p>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const companySection = document.querySelector('.innovation');
+
+                function checkVisibility() {
+                    const rect = companySection.getBoundingClientRect();
+                    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+                    const windowWidth = (window.innerWidth || document.documentElement.clientWidth);
+
+                    // Kiểm tra xem phần tử có nằm trong vùng nhìn thấy hay không
+                    if (
+                        rect.top <= windowHeight && rect.bottom >= 0 &&
+                        rect.left <= windowWidth && rect.right >= 0
+                    ) {
+                        companySection.classList.add('visible');
+                        companySection.classList.remove('hidden');
+                    } else {
+                        companySection.classList.add('hidden');
+                        companySection.classList.remove('visible');
+                    }
+                }
+
+                document.addEventListener('scroll', checkVisibility);
+                window.addEventListener('resize', checkVisibility);
+                checkVisibility(); // Initial check
+            });
+        </script>
+        <div class="inno">
+            <div class="invation-option">
+                <div class="inno-image1">
+                    <a href="">
+                        <img src="../Images/innovation2.webp"  alt="">
+                    </a>
+                </div>
+                <div class="inno-text">
+                    <a href="">
+                        <p>Product Innovation</p>
+                        <h2>Product Innovation</h2>
+                        <p>Audi is shaping the sustainable mobility of tomorrow, combining innovative technologies with progressive design along the way. Now is exactly the right moment for courageous and creative minds to ask unfamiliar questions and leave well-trodden paths.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="invation-option">
+                <div class="inno-image1">
+                    <a href="">
+                        <img src="../Images/innovation3.webp"  alt="">
+                    </a>
+                </div>
+                <div class="inno-text">
+                    <a href="">
+                        <p>Future Technology</p>
+                        <h2>Future Technologies</h2>
+                        <p>Autonomous driving, virtual reality or artificial intelligence: For Audi, the term mobility encompasses much more than just getting from point A to point B. In this way, Audi wants to help ensure that new technological possibilities can be used responsibly.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="inno">
+            <div class="invation-option">
+                <div class="inno-image1">
+                    <a href="">
+                        <img src="../Images/innovation4.webp"  alt="">
+                    </a>
+                </div>
+                <div class="inno-text">
+                    <a href="">
+                        <p>Digitalization</p>
+                        <h2>Digitalization</h2>
+                        <p>Audi is systematically driving forward the digitization of the vehicle and the customer experience. And Production is also working on the Smart Factory, the intelligent, digitally networked factory of the future.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="invation-option">
+                <div class="inno-image1">
+                    <a href="">
+                        <img src="../Images/innovation5.webp"  alt="">
+                    </a>
+                </div>
+                <div class="inno-text">
+                    <a href="">
+                        <p>Research</p>
+                        <h2>Research</h2>
+                        <p>The future begins today: with our visions, decisions and investments. At Audi, we are always looking for solutions that move people. That means first understanding what matters and is important to them: today and tomorrow.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="driving">
+            <div class="driving-text">
+                <p>Innovation</p>
+                <h2>Audi driving experience</h2>
+                <p>Driving and safety training courses on Audi dynamic tracks, exclusive Alpine tours, winter training courses in Scandinavia - the Audi driving experience offers Audi fans unforgettable driving experiences.</p>
+                <a href="" class="main-button">Read more</a>
+            </div>
+            <div class="driving-image">
+                <img src="../Images/innovation6.webp" width="690" height="390" alt="">
+            </div>
+        </div>
+        <h1 class="inno-title">Topics from the area of innovation</h1>
+        <div class="Topic">
+            <div class="inno-topics">
+                <div class="topic-box">
+                    <div class="image-box">
+                        <a href="">
+                            <img src="../Images/innovation7.webp"  alt="">
+                        </a>
+                    </div>
+                    <div class="text-box">
+                        <a href="">
+                            <p>Drive Systems __ 06/12/2024</p>
+                            <h2>Audi and Ducati: pure magnetism on four and two wheels</h2>
+                            <p>Experience innovative technology, peak driving performance, and top design with the Audi e-tron GT prototype and the Ducati Panigale V4 R. Find out more</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="inno-topics">
+                <div class="topic-box">
+                    <div class="image-box">
+                        <a href="">
+                            <img src="../Images/innovation8.webp"  alt="">
+                        </a>
+                    </div>
+                    <div class="text-box">
+                        <a href="">
+                            <p>Digitalization __ 05/15/2024</p>
+                            <h2>Audi at the 2024 OMR Festival: “The Power of Progress!”</h2>
+                            <p>At the OMR 2024 Festival, discover at how Audi is shaping the future with the new Q6 e-tron and innovative digital marketing. Learn more!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="inno-topics">
+                <div class="topic-box">
+                    <div class="image-box">
+                        <a href="">
+                            <img src="../Images/innovation9.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="text-box">
+                        <a href="">
+                            <p>Drive Systems __ 04/25/2024</p>
+                            <h2>Electromobility: assembly on a new level</h2>
+                            <p>Sustainable and flexible: Audi is modernizing, digitalizing, and transforming its plants for the Q6 e-tron series – including its headquarters in Ingolstadt.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inno-bt">
+            <a href="" class="main-button">To story overview</a>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="icon">
+            <a href=""><i class="fa-brands fa-facebook" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-instagram" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-youtube" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin" style="margin-right: 3rem;"></i></a>
+        </div>
+        <div class="footer-menu">
+            <div class="column">
+                <h3>Topics:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Company</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Innovation</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Sustainability</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Careers</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Audi in sport</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>AUDI AG:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Audi Report 2023</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Documents & Policies</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Finalcial Calender</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Management</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Locations</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Services:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">myAudi</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Press</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Job portal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="last-menu">
+            <h3>© AUDI AG. All rights reserved</h3>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Legal notice</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Legal</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Whistleblower System</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Privacy Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Cookie Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Cookie Consent Options</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

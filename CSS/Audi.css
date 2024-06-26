@@ -1,0 +1,195 @@
+body{
+    font-family: Ubuntu Sans Mono;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.2rem;
+    padding-left: 15rem;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+.menu-item {
+    font-size: 1.2rem;
+    transition: transform 0.3s, font-weight 0.3s;
+    cursor: pointer;
+}
+.menu-item:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.header_image {
+    background: rgb(255, 255, 255)
+      url(../Images/trangchu.webp);
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    position: relative;
+}
+.header_text {
+    position: absolute;
+    color: white;
+    top: 17%;
+    right: 30%;
+    left: 30%;
+    text-align: center;
+    font-size: x-large;
+}
+.header_button{
+    position: absolute;
+    color: white;
+    top: 63%;
+    left: 44%;
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    border: 2px solid white;
+    text-decoration: none;      
+    text-align: center;
+    font-size: 1.2rem;
+    width: 13rem;
+}
+main{
+    padding: 3rem 15rem 3rem 15rem;
+    align-items: center; 
+    justify-content: center;
+    
+    
+}
+main a {
+    text-decoration: none;
+    color: black;
+}
+.main-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+.main-title > h1 {
+    font-weight: 500;
+}
+.main-topics{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-bottom: 4rem;
+    width: 100%;
+}
+.topic-one{
+    margin-right: 0.2rem;
+}
+.topic-image{
+    display: inline-block;
+    overflow: hidden;
+}
+.topic-image img{
+    display: block;
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
+.topic-image img:hover {
+    transform: scale(1.1); /* Phóng to ảnh lên 10% khi hover */
+}
+.topic-text > a > h2{
+    width: 90%;
+}
+.topic-text > a > p{
+    width: 96%;
+}
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress-image{
+   margin-right: 2rem;
+}
+.main-button{
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;      
+    text-align: center;
+    font-size: 1.2rem;
+    width: 13rem;
+    color: rgb(0, 0, 0);
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: black;
+    height: 3.5rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.model{
+    display: flex;
+    margin-top: 5rem;
+}
+.model-image{
+    margin-right: 3rem;
+}
+footer{
+    height: 30rem;
+    padding: 3rem 15rem 0rem 15rem;
+    align-items: center; 
+    justify-content: center;
+    background-color: black;
+}
+.icon{
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: xx-large;   
+}
+.icon a{
+    color: white;
+}
+.footer-menu{
+    display: flex;
+    justify-content: flex-start; 
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-top: 3rem;
+    height: 20rem; 
+}
+.footer-menu ul{
+    list-style-type: none;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+}
+.column{
+    margin-right: 7rem;
+}
+.column h3 {
+    color: white;
+}
+.last-menu{
+    display: flex;
+}
+.last-menu h3 {
+    color: white;
+}
+.last-menu ul{
+    list-style-type: none;
+}
+.last-menu a{
+    text-decoration: none;
+    color: white;
+}

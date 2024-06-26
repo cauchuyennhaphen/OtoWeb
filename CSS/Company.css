@@ -1,0 +1,127 @@
+.header_company {
+    background: rgb(255, 255, 255)
+      url(../Images/company1.webp);
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    
+}
+.company{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    transition: opacity 6s;
+    margin-top: 14rem;
+}
+.hidden {
+    opacity: 0;
+}
+.visible {
+    opacity: 2;
+}
+.company h1 {
+    font-size: 4rem;
+}
+.company p{
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    width: 50%;
+    margin-left: 21rem;
+    font-size: 1.3rem;
+}
+.company-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.company-image img {
+   
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+.company-option{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.company-image {
+    position: relative;
+    width: 26.75rem; 
+    height: 16.625rem;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay .text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.overlay .text a {
+    color: white;
+    text-decoration: none;
+}
+.company-option2{
+    display: flex;
+}
+.company-image2 {
+    position: relative;
+    width: 40.65rem; 
+    height: 16.625rem;
+    overflow: hidden;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+}
+.information{
+    display: flex;
+    margin-top: 4rem;
+}
+.title-inf{
+    margin-top: 4rem;
+}
+.report{
+    display: flex;
+    margin-top: 5rem;
+}
+.report-image{
+    margin-right: 4rem;
+}
+.main-button{
+    margin-top: 3rem;
+}

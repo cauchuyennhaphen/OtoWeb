@@ -1,0 +1,128 @@
+
+.header_sport{
+    margin-top: 5rem;
+    background: rgb(255, 255, 255)
+      url(../Images/img21.png);
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    
+}
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.2rem;
+  padding-left: 15rem;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+}
+.menu-item {
+  font-size: 1.2rem;
+  transition: transform 0.3s, font-weight 0.3s;
+  cursor: pointer;
+}
+.menu-item:hover {
+  font-weight: bold;
+  transform: scale(1.2);
+}
+.main {
+  padding: 3rem 15rem 3rem 15rem;
+  align-items: center;
+  justify-content: center;
+}
+.main a {
+  text-decoration: none;
+  color: black;
+}
+.sport{
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 7rem;
+    transition: opacity 6s;
+    margin-top: 20rem;
+}
+.hidden {
+    opacity: 0;
+}
+.visible {
+    opacity: 2;
+}
+.sport h1 {
+    font-size: 4rem;
+}
+.sport p{
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    width: 50%;
+    margin-left: 21rem;
+    font-size: 1.3rem;
+}
+.main-topics{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-bottom: 4rem;
+    width: 100%;
+}
+.topic-one{
+    margin-right: 0.2rem;
+}
+.topic-image{
+    display: inline-block;
+    overflow: hidden;
+}
+.topic-image img{
+    display: block;
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
+.topic-image img:hover {
+    transform: scale(1.1); /* Phóng to ảnh lên 10% khi hover */
+}
+.topic-text > a > h2{
+    width: 90%;
+}
+.topic-text > a > p{
+    width: 96%;
+}
+.model{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.model-text button{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    border: 1px black solid;
+    padding: 15px;
+    color: black; 
+    margin-bottom: 1rem;
+}
+.image-box {
+    overflow: hidden; /* Đảm bảo ảnh không tràn ra ngoài khung chứa */
+    width: 26.6875rem; /* Chiều rộng của khung chứa ảnh */
+    height: 15rem; /* Chiều cao của khung chứa ảnh */
+}
+
+.image-box img {
+    width: 100%; /* Đảm bảo ảnh luôn vừa khung chứa */
+    height: 100%; /* Đảm bảo ảnh luôn vừa khung chứa */
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+.image-box:hover img {
+    transform: scale(1.2); /* Phóng to ảnh lên khi hover */
+}
+.main-button{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}

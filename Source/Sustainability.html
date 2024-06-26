@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability | audi.com</title>
+    <link rel="stylesheet" href="../CSS/Audi.css">
+    <link rel="stylesheet" href="../CSS/Sustainability.css">
+    <link rel="stylesheet" href="../CSS/Innovation.css">
+    <link rel="preconnect" href="https://fontawesome.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Audi.html"><i class="fa-solid fa-house"></i></a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Company.html">Company</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Strategy.html">Strategy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Innovation.html">Innovation</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Sustainability.html">Sustainability</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Careers.html">Careers</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Audi in sport.html">Audi in sport</a>
+                </li>
+            </ul>
+           
+        </nav>
+        <div class="header_sustainability"></div>
+    </header>
+    <main>
+        <div class="innovation hidden">
+            <h1>Sustainability</h1>
+            <p>Climate change mitigation, the responsible use of resources, societal advancement and social justice are among the great challenges of our time. Audi takes economic, ecological and social responsibility and has made sustainable business operations an integral part of all of its decisions and products. Find out more about how Audi is shaping the mobility of the future on the basis of a clear strategy.
+            </p>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const companySection = document.querySelector('.innovation');
+
+                function checkVisibility() {
+                    const rect = companySection.getBoundingClientRect();
+                    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+                    const windowWidth = (window.innerWidth || document.documentElement.clientWidth);
+
+                    // Kiểm tra xem phần tử có nằm trong vùng nhìn thấy hay không
+                    if (
+                        rect.top <= windowHeight && rect.bottom >= 0 &&
+                        rect.left <= windowWidth && rect.right >= 0
+                    ) {
+                        companySection.classList.add('visible');
+                        companySection.classList.remove('hidden');
+                    } else {
+                        companySection.classList.add('hidden');
+                        companySection.classList.remove('visible');
+                    }
+                }
+
+                document.addEventListener('scroll', checkVisibility);
+                window.addEventListener('resize', checkVisibility);
+                checkVisibility(); // Initial check
+            });
+        </script>
+       <div class="inno">
+        <div class="invation-option">
+            <div class="inno-image1">
+                <a href="">
+                    <img src="../Images/sustainability2.webp"  alt="">
+                </a>
+            </div>
+            <div class="inno-text">
+                <a href="">
+                    <p>Sustainability Concept</p>
+                    <h2>Sustainability concept</h2>
+                    <p>Clear ESG criteria, smart stakeholder engagement and dedicated reporting: here you can find out more about the subtleties of sustainability management at Audi.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="invation-option">
+            <div class="inno-image1">
+                <a href="">
+                    <img src="../Images/sustainability3.webp"  alt="">
+                </a>
+            </div>
+            <div class="inno-text">
+                <a href="">
+                    <p>Environment & Resources</p>
+                    <h2>Environment & Resources</h2>
+                    <p>What is Audi doing every day to make its products, its value chain and its production processes more sustainable? You can find the most important questions and answers on decarbonization, electrification and circular economy here.
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="inno">
+        <div class="invation-option">
+            <div class="inno-image1">
+                <a href="">
+                    <img src="../Images/sustainability4.webp"  alt="">
+                </a>
+            </div>
+            <div class="inno-text">
+                <a href="">
+                    <p>People & Society</p>
+                    <h2>People & Society</h2>
+                    <p>Find out in detail how Audi takes responsibility for its supply chain, advocates for human rights, engages in civil society and promotes diversity and inclusion.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="invation-option">
+            <div class="inno-image1">
+                <a href="">
+                    <img src="../Images/sustainability5.webp"  alt="">
+                </a>
+            </div>
+            <div class="inno-text">
+                <a href="">
+                    <p>Ethical leadership</p>
+                    <h2>Ethical leadership</h2>
+                    <p>Value oriented and sustainable: at Audi, business and ethics aren’t opposing ideas, but rather go hand in hand. Read about how compliance and integrity are firmly anchored in the business processes at Audi.
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="target">
+        <h1 class="sus-title">
+            Three sustainability targets for Audi
+        </h1>
+        <div class="target-inf">
+            <div class="target1">
+                <p>By</p>
+                <h1>2025</h1>
+                <p>all production sites* will be net carbon-neutral**</p>
+            </div>
+            <div class="target1">
+                <p>million euros</p>
+                <h1>500</h1>
+                <p>provided by Audi by 2025 for training employees</p>
+            </div>
+            <div class="target1">
+                <p>By</p>
+                <h1 style="border: none;">2033</h1>
+                <p>production of vehicles with combustion engines will be gradually phased out</p>
+            </div>
+        </div>
+        <div class="target-under">
+            <div class="target-para">
+                <h3>“Holistic sustainability at Audi goes beyond the product. We are convinced that a sustainable business model includes taking social responsibility in addition to ecological criteria.”
+                    – Jürgen Rittersberger, Member of the Board of Management of AUDI AG for Finance, Legal Affairs and IT</h3>
+            </div>
+            <div class="target-image">
+                <img src="../Images/sustainability6.webp" width="594" height="594" alt="">
+            </div>
+        </div>
+    </div>
+    <h1 class="inno-title">Topics from the area of sustainability</h1>
+        <div class="Topic">
+            <div class="inno-topics">
+                <div class="topic-box">
+                    <div class="image-box">
+                        <a href="">
+                            <img src="../Images/sustainability7.webp"  alt="">
+                        </a>
+                    </div>
+                    <div class="text-box">
+                        <a href="">
+                            <p>Sustainability __ 04/15/2024</p>
+                            <h2>Responsibility for the future</h2>
+                            <p>The series 'The Bigger Picture' shows how criteria for ecological and social sustainability determine Audi's actions.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="inno-topics">
+                <div class="topic-box">
+                    <div class="image-box">
+                        <a href="">
+                            <img src="../Images/sustainability8.webp"  alt="">
+                        </a>
+                    </div>
+                    <div class="text-box">
+                        <a href="">
+                            <p>Environment & Resources __ 01/23/2024</p>
+                            <h2>Audi Environmental Foundation is committed to clean waters</h2>
+                            <p>The Audi Environmental Foundation actively fights plastic litter by promoting projects to protect our rivers and oceans worldwide.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="inno-topics">
+                <div class="topic-box">
+                    <div class="image-box">
+                        <a href="">
+                            <img src="../Images/sustainability9.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="text-box">
+                        <a href="">
+                            <p>Decarbonization __ 01/16/2024</p>
+                            <h2>Sustainable right down to the very last detail</h2>
+                            <p>To become the leading carbon-neutral premium provider, Audi is optimizing all parts of its value chain. An overview of key improvements and initiatives.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="inno-bt">
+            <a href="" class="main-button">To story overview</a>
+        </div>
+        <div class="find">
+            <div class="find-title">
+                <h2>Find out more</h2>
+            </div>
+            <div class="find-p">
+                <p>Audi has set itself the task of providing comprehensive information on the topic of sustainability via a wide variety of media. Here you can find further sources of information on the topic of sustainability at Audi.</p>
+            </div>
+            <div class="Topic">
+                <div class="inno-topics">
+                    <div class="topic-box">
+                        <div class="image-box">
+                            <a href="">
+                                <img src="../Images/sustainability10.webp"  alt="">
+                            </a>
+                        </div>
+                        <div class="text-box">
+                            <a href="">
+                                <p>Sustainability</p>
+                                <h2>Audi Media Center</h2>
+                                <p>To the sustainability hub</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="inno-topics">
+                    <div class="topic-box">
+                        <div class="image-box">
+                            <a href="">
+                                <img src="../Images/sustainability11.webp"  alt="">
+                            </a>
+                        </div>
+                        <div class="text-box">
+                            <a href="">
+                                <p>Information</p>
+                                <h2>audi.de</h2>
+                                <p>To Audi Germany</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="inno-topics">
+                    <div class="topic-box">
+                        <div class="image-box">
+                            <a href="">
+                                <img src="../Images/sustainability12.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="text-box">
+                            <a href="">
+                                <p>Annual and sustainability report</p>
+                                <h2>Audi Report 2023</h2>
+                                <p>To the annual and sustainability report</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div class="download">
+            <div class="download-title">
+                <h1>Download</h1>
+            </div>
+            <div class="Topic">
+                <div class="inno-topics">
+                    <div class="topic-box">
+                        <div class="image-box">
+                            <a href="">
+                                <img src="../Images/sustainability-gif.gif"  alt="">
+                            </a>
+                        </div>
+                        <div class="text-box">
+                            <a href="" style="color: white;">
+                                <p>Sustainability Repots</p>
+                                <h2>Audi Report 2023</h2>
+                                <p>AUDI AG is committed to future-oriented premium mobility. Find out how it achieves this by reading the Audi Report 2023. The combined annual and sustainability report provides an insight into strategy and financial performance and it documents the progress of AUDI AG with regard to Environmental, Social and Governance (ESG) topics.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="inno-topics">
+                    <div class="topic-box">
+                        <div class="image-box">
+                            <a href="">
+                                <img src="../Images/sustainability14.webp"  alt="">
+                            </a>
+                        </div>
+                        <div class="text-box">
+                            <a href="" style="color: white;">
+                                <p>Sustainability Repots</p>
+                                <h2>Sustainability repots</h2>
+                                <p>Read the collected Audi Sustainability reports and learn more about the implementation of the company’s strategy.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="inno-topics">
+                    <div class="topic-box">
+                        <div class="image-box">
+                            <a href="">
+                                <img src="../Images/sustainability15.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="text-box">
+                            <a href="" style="color: white;">
+                                <p>Documents & Policies</p>
+                                <h2>Documents & Policies</h2>
+                                <p>Voluntary undertakings and principles that apply across the Group form the basis and backbone of our strategic sustainability objectives.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="icon">
+            <a href=""><i class="fa-brands fa-facebook" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-instagram" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-youtube" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin" style="margin-right: 3rem;"></i></a>
+        </div>
+        <div class="footer-menu">
+            <div class="column">
+                <h3>Topics:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Company</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Innovation</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Sustainability</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Careers</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Audi in sport</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>AUDI AG:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Audi Report 2023</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Documents & Policies</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Finalcial Calender</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Management</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Locations</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Services:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">myAudi</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Press</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Job portal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="last-menu">
+            <h3>© AUDI AG. All rights reserved</h3>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Legal notice</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Legal</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Whistleblower System</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Privacy Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Cookie Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Cookie Consent Options</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

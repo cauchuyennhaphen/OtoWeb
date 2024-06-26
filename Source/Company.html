@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company | audi.com</title>
+    <link rel="stylesheet" href="../CSS/Audi.css">
+    <link rel="stylesheet" href="../CSS/Company.css">
+    <link rel="preconnect" href="https://fontawesome.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Audi.html"><i class="fa-solid fa-house"></i></a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Company.html">Company</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Strategy.html">Strategy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Innovation.html">Innovation</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Sustainability.html">Sustainability</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Careers.html">Careers</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="../Source/Audi in sport.html">Audi in sport</a>
+                </li>
+            </ul>
+            
+        </nav>
+        <div class="header_company">
+            
+
+        </div>  
+    </header>
+    <main>
+        <div class="company hidden">
+            <h1>COMPANY</h1>
+            <p>The AUDI AG stands for sporty vehicles, high build quality and progressive design – for “Vorsprung durch Technik.” The Audi Group is among the world’s leading producers of premium cars. To play an instrumental role in shaping the transformation as we head into a new age of mobility the Company is implementing its strategy step by step.</p>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const companySection = document.querySelector('.company');
+
+                function checkVisibility() {
+                    const rect = companySection.getBoundingClientRect();
+                    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+                    const windowWidth = (window.innerWidth || document.documentElement.clientWidth);
+
+                    // Kiểm tra xem phần tử có nằm trong vùng nhìn thấy hay không
+                    if (
+                        rect.top <= windowHeight && rect.bottom >= 0 &&
+                        rect.left <= windowWidth && rect.right >= 0
+                    ) {
+                        companySection.classList.add('visible');
+                        companySection.classList.remove('hidden');
+                    } else {
+                        companySection.classList.add('hidden');
+                        companySection.classList.remove('visible');
+                    }
+                }
+
+                document.addEventListener('scroll', checkVisibility);
+                window.addEventListener('resize', checkVisibility);
+                checkVisibility(); // Initial check
+            });
+        </script>
+
+        <div class="company-option">
+            <div class="company-image">
+                <div class="image-container">
+                    <img src="../Images/company2.webp"  alt="company">
+                    <div class="overlay">
+                        <div class="text">
+                            <a href="">Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="company-image">
+                <div class="image-container">
+                    <img src="../Images/company3.webp"  alt="company">
+                    <div class="overlay">
+                        <div class="text">
+                            <a href="">Strategy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="company-image">
+                <div class="image-container">
+                    <img src="../Images/company4.webp"  alt="company">
+                    <div class="overlay">
+                        <div class="text">
+                            <a href="">Compliance & Riskmanagement</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="company-option2">
+            <div class="company-image2">
+                <div class="image-container">
+                    <img src="../Images/company5.webp"   alt="company">
+                    <div class="overlay">
+                        <div class="text">
+                            <a href="">Sustainability</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="company-image2">
+                <div class="image-container">
+                    <img src="../Images/company6.webp"    alt="company">
+                    <div class="overlay">
+                        <div class="text">
+                            <a href="">Investor Relations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="title-inf">
+            <h1>Information about the structure of AUDI AG</h1>
+        </div>
+        <div class="information">
+            <div class="company-option">
+                <div class="company-image">
+                    <div class="image-container">
+                        <img src="../Images/company8.webp"  alt="company">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="">Management</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="company-option">
+                <div class="company-image">
+                    <div class="image-container">
+                        <img src="../Images/company9.webp"  alt="company">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="">Locations of the Audi groups</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="company-option">
+                <div class="company-image">
+                    <div class="image-container">
+                        <img src="../Images/company10.webp"  alt="company">
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="">Business Areas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="report">
+            <div class="report-image">
+                <img src="../Images/company11.webp" width="708" height="398" alt="company">
+            </div>
+            <div class="report-text">
+                <p>Annual and sustainability report</p>
+                <h2>Audi Report 2023</h2>
+                <p>Welcome to the Audi Report 2023! The combined annual and sustainability report of Audi brings together the topics of strategy, finance as well as Environmental, Social and Governance (ESG).</p>
+                <a href="" class="main-button">Read more</a>
+            </div>
+        </div>
+           
+    </main>
+    <footer>
+        <div class="icon">
+            <a href=""><i class="fa-brands fa-facebook" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-instagram" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-youtube" style="margin-right: 3rem;"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin" style="margin-right: 3rem;"></i></a>
+        </div>
+        <div class="footer-menu">
+            <div class="column">
+                <h3>Topics:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Company</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Innovation</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Sustainability</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Careers</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Audi in sport</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>AUDI AG:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Audi Report 2023</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Documents & Policies</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Finalcial Calender</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Management</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Locations</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Services:</h3>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">myAudi</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Press</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-item">
+                        <a href="">Job portal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="last-menu">
+            <h3>© AUDI AG. All rights reserved</h3>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Legal notice</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Legal</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Whistleblower System</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Privacy Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Cookie Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="menu-item">
+                    <a href="">Cookie Consent Options</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

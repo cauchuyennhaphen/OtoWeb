@@ -1,0 +1,74 @@
+.header_sustainability {
+    background: rgb(255, 255, 255)
+      url(../Images/sustainability1.webp);
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    position: relative;
+}
+.target-inf{
+    display: flex;
+    margin-top: 6rem; 
+}
+.sus-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.target{
+    width: 100%;
+    background-color: black;
+    margin-top: 4rem;
+    color: white;
+    height: 80rem;
+    margin-bottom: 5rem;
+} 
+
+.target1{
+    text-align: center;
+    width: 33%;
+}
+.target1 h1{
+    border-right: 1px solid white;
+    height: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.target-under{
+    margin-top: 5rem;
+    display: flex;
+}
+.target-para h3{
+    padding-top: 25%;
+}
+.inno-title{
+    margin-bottom: 5rem;
+}
+.find{
+    margin-top: 6rem;
+}
+.find-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.find-p{
+    margin-bottom: 7rem;
+}
+.download{
+    margin-top: 5rem;
+    background-color: black;
+    color: white;
+}
+.download-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+}
